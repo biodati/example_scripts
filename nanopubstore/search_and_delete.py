@@ -11,7 +11,7 @@ import requests
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
-# example query -- ./search_and_delete.py -u https://nanopubstore.plm.biodati.com -s 'nanopub.metadata.project:"MS Model" AND nanopub.metadata.gd\:createTS:[ 2018-07-15 TO 2018-07-18 ] AND nanopub.citation.database.id: 21833088'
+# example query -- ./search_and_delete.py -u http://nanopubstore.<sitename>.biodati.com -s 'nanopub.metadata.project:"MS Model" AND nanopub.metadata.gd\:createTS:[ 2018-07-15 TO 2018-07-18 ] AND nanopub.citation.database.id: 21833088'
 
 
 @click.command(context_settings=CONTEXT_SETTINGS)
