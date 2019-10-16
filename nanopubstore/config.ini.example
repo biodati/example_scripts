@@ -1,0 +1,4 @@
+[DEFAULT]
+server_nickname = servername
+username = yourusername@youremail
+password = yourpassword
